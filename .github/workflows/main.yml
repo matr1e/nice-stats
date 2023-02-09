@@ -45,7 +45,7 @@ jobs:
           
       - name: Update Template
         run: |
-          node updater.js sherlock hacker
+          node updater.js { sherlockfx } hacker
         env:
           GHT: ${{ secrets.GHT }}
           
